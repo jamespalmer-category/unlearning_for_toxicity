@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "unlearning-for-toxicity"
+version = "0.1.0"
+description = ""
+authors = ["James Palmer <jamesgpalmer@live.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.38.2"
+torch = "^2.2.1"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
